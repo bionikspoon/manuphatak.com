@@ -47,7 +47,8 @@
     "wpackagist-plugin/updraftplus": "1.12.12",
     "wpackagist-plugin/w3-total-cache": "0.9.4.1",
     "wpackagist-plugin/wordpress-seo": "3.2.5",
-    "wpackagist-plugin/wordpress-importer": "0.6.2"
+    "wpackagist-plugin/wordpress-importer": "0.6.2",
+    "wpackagist-plugin/ssl-insecure-content-fixer": "2.1.6"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "2.6.0"

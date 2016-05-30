@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d21dc073e9c24ae941a53a31c05d22c0",
-    "content-hash": "b368eef77d76cf52bedc98c2af6c6f10",
+    "hash": "a67f66e1096288f5d264e4bb507d6cc8",
+    "content-hash": "6b7b9917db609ef619d666bcb9d3a9ba",
     "packages": [
         {
             "name": "composer/installers",
@@ -422,6 +422,26 @@
             "homepage": "https://wordpress.org/plugins/maintenance/"
         },
         {
+            "name": "wpackagist-plugin/ssl-insecure-content-fixer",
+            "version": "2.1.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ssl-insecure-content-fixer/",
+                "reference": "tags/2.1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ssl-insecure-content-fixer.2.1.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ssl-insecure-content-fixer/"
+        },
+        {
             "name": "wpackagist-plugin/timber-library",
             "version": "1.0.3",
             "source": {
@@ -492,7 +512,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.2.zip",
-                "reference": null,
+                "reference": "tags/0.6.2",
                 "shasum": null
             },
             "require": {
